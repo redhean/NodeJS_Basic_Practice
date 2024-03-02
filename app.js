@@ -19,5 +19,7 @@ const items = [1,[2, [3, [4]]]];
 const newItems = _.flattenDeep(items);
 console.log(newItems);
 
+console.log('hello world');
+
 // github에 업로드 할 시, .gitignore에 있는 패키지들은 안 올라가게 된다.
 // git에서 clone을 할 시, 필요한 패키지들은 'npm install' 명령어를 사용하면 package.json 파일의 dependencies를 보면서 자동으로 install해준다.
